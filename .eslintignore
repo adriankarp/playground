@@ -1,0 +1,10 @@
+**/node_modules/**
+**/.storybook/**
+**/dist/**
+./docs/**
+**/*.test.js
+**/webpack*
+**/jest.config*
+**/enzyme.setup.*
+**/babel.config.*
+**/*.stories.js
