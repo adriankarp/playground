@@ -1,12 +1,15 @@
 {
-  "name": "components",
+  "name": "components-core",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Base React Components for UIs",
+  "scripts": {},
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "author": "Adrian Karp",
+  "license": "GNU General Public License v3.0",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
 }

@@ -2,12 +2,9 @@
   "name": "playground",
   "version": "1.0.0",
   "description": "showcase personal project",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "testing": "pnpm -F testing start"
   },
-  "keywords": [],
   "author": "Adrian Karp",
   "license": "GNU General Public License v3.0"
 }
