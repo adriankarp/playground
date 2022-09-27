@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "showcase personal project",
   "scripts": {
-    "testing": "pnpm -F testing start"
+    "testing": "pnpm -F testing start",
+    "components-core:build": "pnpm -F components-core build"
   },
   "author": "Adrian Karp",
   "license": "GNU General Public License v3.0"
