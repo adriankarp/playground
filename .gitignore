@@ -1,6 +1,7 @@
 **/node_modules
 **/debug
 **/dist
+**/build
 **/storybook-dist
 
 **/.DS_Store
@@ -14,9 +15,9 @@
 **/pnpm-debug.log*
 **/pnpm-error.log*
 **/.jest-*
+
 **/jest/coverage
 **/test-reports
-
 **/.coverage
 **/coverage
 
