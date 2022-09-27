@@ -4,9 +4,12 @@
     "allowJs": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "module": "commonjs",
+    "target": "es2015",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["dom", "es2018"],
     "outDir": "./dist"
   },
-  "include": ["."],
+  "include": [".", ".d.ts"],
   "exclude": ["dist", "node_modules", "**/*.spec.ts"]
 }
