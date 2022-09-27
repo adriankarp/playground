@@ -1,8 +1,11 @@
 {
   "name": "components-core",
+  "main": "dist/index.js",
   "version": "1.0.0",
   "description": "Base React Components for UIs",
-  "scripts": {},
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
   "keywords": [],
   "dependencies": {
     "react": "^18.2.0"
