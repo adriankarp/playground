@@ -6,12 +6,17 @@
     "build": "pnpx nx run-many --target=build",
     "graph": "pnpx nx graph",
     "format": "npm run prettier:fix && npm run lint:fix",
-    "lint": "npx eslint apps",
+    "lint": "pnpm eslint apps",
     "lint:fix": "npm run lint -- --fix",
     "prettier": "npx prettier apps --check",
     "prettier:fix": "npm run prettier -- --write",
     "app:testing": "pnpx start testing",
     "build:components-core": "pnpx build components-core"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"[Husky] pre-commit\" && pnpm lint"
+    }
   },
   "author": "Adrian Karp",
   "license": "GNU General Public License v3.0",
@@ -21,7 +26,9 @@
     "@typescript-eslint/parser": "^5.38.1",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.8",
+    "husky": "^8.0.1",
     "nx": "14.7.17",
     "prettier": "2.7.1"
   }
