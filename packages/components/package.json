@@ -1,8 +1,8 @@
 {
-  "name": "components-core",
+  "name": "components",
   "main": "dist/index.js",
   "version": "1.0.0",
-  "description": "Base React Components for UIs",
+  "description": "UI React components library",
   "scripts": {
     "build": "rm -rf dist && tsc"
   },
