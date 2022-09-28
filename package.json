@@ -5,8 +5,8 @@
   "scripts": {
     "build": "pnpx nx run-many --target=build",
     "graph": "pnpx nx graph",
-    "app:testing": "pnpx start testing",
-    "build:components-core": "pnpx build components-core",
+    "app:testing": "pnpx nx start testing",
+    "build:components": "pnpx nx build components",
     "format": "npm run prettier:fix && npm run lint:fix",
     "lint": "pnpm eslint apps",
     "lint:fix": "npm run lint -- --fix",
