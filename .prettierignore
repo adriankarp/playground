@@ -2,3 +2,4 @@
 **/*.styles.js
 **/*.styles.ts
 **/*.md
+**/node_modules/**

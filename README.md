@@ -11,3 +11,4 @@ this **monorepo** is a showcase project, where I implemend and add feature while
 - pnpm graph
 - pnpm build:components-core
 - pnpm app:testing
+- pnpm lint
