@@ -7,7 +7,8 @@ this **monorepo** is a showcase project, where I implemend and add feature while
 - nx cloud CI
 - husky
 - storybook
-- chakra ui
+- mui
+
 
 - pnpm install
 - pnpm build
