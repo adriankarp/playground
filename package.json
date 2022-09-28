@@ -5,6 +5,7 @@
   "scripts": {
     "build": "pnpx nx run-many --target=build",
     "graph": "pnpx nx graph",
+    "format": "pnpx format:check",
     "app:testing": "pnpx start testing",
     "build:components-core": "pnpx build components-core"
   },

@@ -4,20 +4,14 @@
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": [
-          "build",
-          "test",
-          "eject"
-        ],
+        "cacheableOperations": ["build", "test", "eject"],
         "accessToken": "NjY5MzlhZDMtOGYzMi00ZGU0LWEzZjQtMjNmMDhkMDgwYjgxfHJlYWQtd3JpdGU="
       }
     }
   },
   "targetDefaults": {
     "build": {
-      "dependsOn": [
-        "^build"
-      ]
+      "dependsOn": ["^build"]
     }
   },
   "affected": {
