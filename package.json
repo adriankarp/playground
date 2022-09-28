@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "showcase personal project",
   "scripts": {
+    "build": "pnpm run --parallel -r build",
     "testing": "pnpm -F testing start",
     "components-core:build": "pnpm -F components-core build"
   },
