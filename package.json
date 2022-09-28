@@ -2,6 +2,8 @@
   "name": "playground",
   "version": "1.0.0",
   "description": "showcase personal project",
+  "author": "Adrian Karp",
+  "license": "GNU General Public License v3.0",
   "scripts": {
     "build": "pnpx nx run-many --target=build",
     "graph": "pnpx nx graph",
@@ -14,8 +16,21 @@
     "prettier:fix": "npm run prettier -- --write",
     "storybook": "start-storybook -p 6010 -s ./"
   },
-  "author": "Adrian Karp",
-  "license": "GNU General Public License v3.0",
+  "dependencies": {
+    "components": "workspace:*",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.62",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.8.3",
+    "web-vitals": "^2.1.4"
+  },
   "devDependencies": {
     "@nrwl/nx-cloud": "latest",
     "@storybook/addon-a11y": "^6.5.12",

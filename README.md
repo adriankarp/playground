@@ -7,6 +7,7 @@ this **monorepo** is a showcase project, where I implemend and add feature while
 - nx cloud CI
 - husky
 - storybook
+- chakra ui
 
 - pnpm install
 - pnpm build
@@ -15,3 +16,5 @@ this **monorepo** is a showcase project, where I implemend and add feature while
 - pnpm app:testing
 - pnpm lint
 - pnpm storybook
+
+- dependencies handled at root level

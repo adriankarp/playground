@@ -1,18 +1,11 @@
 {
   "name": "components",
-  "main": "dist/index.js",
   "version": "1.0.0",
   "description": "UI React components library",
-  "scripts": {
-    "build": "rm -rf dist && tsc"
-  },
-  "keywords": [],
-  "dependencies": {
-    "react": "^18.2.0"
-  },
   "author": "Adrian Karp",
   "license": "GNU General Public License v3.0",
-  "devDependencies": {
-    "typescript": "^4.8.3"
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
   }
 }
