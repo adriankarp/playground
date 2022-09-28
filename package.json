@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "showcase personal project",
   "scripts": {
-    "build": "npx nx run-many --target=build --all",
-    "graph": "npx nx graph",
-    "app:testing": "npx nx start testing",
-    "build:components-core": "npx nx build components-core"
+    "build": "pnpx nx run-many --target=build",
+    "graph": "pnpx nx graph",
+    "app:testing": "pnpx start testing",
+    "build:components-core": "pnpx build components-core"
   },
   "author": "Adrian Karp",
   "license": "GNU General Public License v3.0",
   "devDependencies": {
-    "nx": "^14.7.17"
+    "nx": "14.7.17",
+    "@nrwl/nx-cloud": "latest"
   }
 }

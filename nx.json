@@ -1,25 +1,26 @@
 {
+  "extends": "nx/presets/npm.json",
   "tasksRunnerOptions": {
     "default": {
-      "runner": "nx/tasks-runners/default",
+      "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "test"]
+        "cacheableOperations": [
+          "build",
+          "test",
+          "eject"
+        ],
+        "accessToken": "NjY5MzlhZDMtOGYzMi00ZGU0LWEzZjQtMjNmMDhkMDgwYjgxfHJlYWQtd3JpdGU="
       }
     }
   },
-  "namedInputs": {
-    "noMarkdown": ["!{projectRoot}/**/*.md"]
-  },
   "targetDefaults": {
     "build": {
-      "inputs": ["noMarkdown", "^noMarkdown"],
-      "dependsOn": ["^build"]
-    },
-    "start": {
-      "dependsOn": ["^build"]
-    },
-    "test": {
-      "inputs": ["noMarkdown", "^noMarkdown"]
+      "dependsOn": [
+        "^build"
+      ]
     }
+  },
+  "affected": {
+    "defaultBase": "main"
   }
 }
