@@ -5,18 +5,13 @@
   "scripts": {
     "build": "pnpx nx run-many --target=build",
     "graph": "pnpx nx graph",
+    "app:testing": "pnpx start testing",
+    "build:components-core": "pnpx build components-core",
     "format": "npm run prettier:fix && npm run lint:fix",
     "lint": "pnpm eslint apps",
     "lint:fix": "npm run lint -- --fix",
     "prettier": "npx prettier apps --check",
-    "prettier:fix": "npm run prettier -- --write",
-    "app:testing": "pnpx start testing",
-    "build:components-core": "pnpx build components-core"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo \"[Husky] pre-commit\" && pnpm lint"
-    }
+    "prettier:fix": "npm run prettier -- --write"
   },
   "author": "Adrian Karp",
   "license": "GNU General Public License v3.0",
