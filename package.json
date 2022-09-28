@@ -1,0 +1,28 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "showcase personal project",
+  "scripts": {
+    "build": "pnpx nx run-many --target=build",
+    "graph": "pnpx nx graph",
+    "format": "npm run prettier:fix && npm run lint:fix",
+    "lint": "npx eslint apps",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "npx prettier apps --check",
+    "prettier:fix": "npm run prettier -- --write",
+    "app:testing": "pnpx start testing",
+    "build:components-core": "pnpx build components-core"
+  },
+  "author": "Adrian Karp",
+  "license": "GNU General Public License v3.0",
+  "devDependencies": {
+    "@nrwl/nx-cloud": "latest",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.31.8",
+    "nx": "14.7.17",
+    "prettier": "2.7.1"
+  }
+}
