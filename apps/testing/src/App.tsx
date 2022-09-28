@@ -5,7 +5,7 @@ import { Button } from 'components-core';
 function App() {
   return (
     <div className="App">
-      <Button onClick={() => console.log('clicked')}>Click me</Button>
+      <Button onClick={() => console.log('clicked')} label="label" />
     </div>
   );
 }
