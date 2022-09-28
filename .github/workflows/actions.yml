@@ -18,8 +18,6 @@ jobs:
 
       parallel-commands: |
 
-        npx nx-cloud record -- npx nx workspace-lint
-
       parallel-commands-on-agents: |
 
         npx nx affected --target=lint --parallel=3
