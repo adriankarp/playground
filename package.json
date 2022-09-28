@@ -11,20 +11,38 @@
     "lint": "pnpm eslint apps",
     "lint:fix": "npm run lint -- --fix",
     "prettier": "npx prettier apps --check",
-    "prettier:fix": "npm run prettier -- --write"
+    "prettier:fix": "npm run prettier -- --write",
+    "storybook": "start-storybook -p 6006 -s ./"
   },
   "author": "Adrian Karp",
   "license": "GNU General Public License v3.0",
   "devDependencies": {
     "@nrwl/nx-cloud": "latest",
+    "@storybook/addon-a11y": "^6.5.12",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/addon-storysource": "^6.5.12",
+    "@storybook/addons": "^6.5.12",
+    "@storybook/api": "^6.5.12",
+    "@storybook/builder-webpack5": "^6.5.12",
+    "@storybook/manager-webpack5": "^6.5.12",
+    "@storybook/react": "^6.5.12",
+    "@svgr/webpack": "^6.3.1",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
     "@typescript-eslint/parser": "^5.38.1",
+    "dotenv": "^16.0.2",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-storybook": "^0.6.4",
+    "fs": "0.0.1-security",
     "husky": "^8.0.1",
     "nx": "14.7.17",
-    "prettier": "2.7.1"
+    "path": "^0.12.7",
+    "prettier": "2.7.1",
+    "register": "link:@storybook/addon-a11y/register",
+    "webpack": "^5.74.0"
   }
 }
