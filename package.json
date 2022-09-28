@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "showcase personal project",
   "scripts": {
-    "build": "pnpm run --parallel -r build",
-    "testing": "pnpm -F testing start",
-    "components-core:build": "pnpm -F components-core build"
+    "build": "npx nx run-many --target=build --all",
+    "graph": "npx nx graph",
+    "app:testing": "npx nx start testing",
+    "build:components-core": "npx nx build components-core"
   },
   "author": "Adrian Karp",
-  "license": "GNU General Public License v3.0"
+  "license": "GNU General Public License v3.0",
+  "devDependencies": {
+    "nx": "^14.7.17"
+  }
 }
