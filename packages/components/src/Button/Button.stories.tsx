@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from './Button'
+import '@fontsource/roboto/400.css'
 
 export default {
   title: 'Components/Button',
