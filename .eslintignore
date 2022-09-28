@@ -1,7 +1,7 @@
 **/node_modules/**
 **/.storybook/**
 **/dist/**
-./docs/**
+**/build/**
 **/*.test.js
 **/webpack*
 **/jest.config*

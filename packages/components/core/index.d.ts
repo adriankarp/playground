@@ -1,1 +1,1 @@
-declare module 'components-core';
+declare module 'components-core'
