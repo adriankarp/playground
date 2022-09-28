@@ -5,6 +5,7 @@ this **monorepo** is a showcase project, where I implemend and add feature while
 - pnpm
 - nx
 - nx cloud CI
+- husky
 
 - pnpm install
 - pnpm build
