@@ -21,6 +21,7 @@
 **/test-reports
 **/.coverage
 **/coverage
+**/__snapshots__
 
 **/.eslintcache
 

@@ -9,6 +9,7 @@ this **monorepo** is a showcase project, where I implemend and add feature while
 - storybook
 - mui
 - typescript
+- jest
 
 
 - pnpm install
