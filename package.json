@@ -7,7 +7,7 @@
   "scripts": {
     "build": "pnpx nx run-many --target=build",
     "graph": "pnpx nx graph",
-    "app:testing": "pnpx nx start testing",
+    "app:testing": "pnpx nx start @playground/app-testing",
     "build:components-web": "pnpx nx build @playground/components-web",
     "format": "npm run prettier:fix && npm run lint:fix",
     "lint": "pnpm eslint apps",
