@@ -1,14 +1,17 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "Node16",
     "esModuleInterop": true,
+    "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
     "newLine": "LF",
     "outDir": "./dist",
     "rootDir": ".",
     "allowJs": true,
-    "target": "ES2016",
+    "target": "ES2017",
+    "types": ["node", "jest"],
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
@@ -25,5 +28,12 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "composite": true
-  }
+  },
+  "include": ["**/*.ts, **/*.tsx"],
+  "exclude": [
+    "**/*.test.*",
+    "**/__mocks__/*",
+    "**/__tests__/*",
+    "**/__snapshots__/*"
+  ]
 }
