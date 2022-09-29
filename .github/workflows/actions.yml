@@ -20,11 +20,11 @@ jobs:
 
       parallel-commands-on-agents: |
 
-        pnpm lint --parallel=3
+        pnpm lint 
 
-        pnpm jest -u --parallel=3
+        pnpm jest -u 
 
-        pnpm build --parallel=3
+        pnpm build
 
   agents:
     name: Nx Cloud - Agents
