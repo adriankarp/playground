@@ -8,6 +8,7 @@ this **monorepo** is a showcase project, where I implemend and add feature while
 - husky
 - storybook
 - mui
+- typescript
 
 
 - pnpm install
