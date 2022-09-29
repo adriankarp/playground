@@ -1,7 +1,7 @@
 {
-  "name": "components",
+  "name": "@playground/components-web",
   "version": "1.0.0",
-  "description": "UI React components library",
+  "description": "UI React web components library",
   "author": "Adrian Karp",
   "license": "GNU General Public License v3.0",
   "main": "dist/index.js",

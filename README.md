@@ -13,7 +13,7 @@ this **monorepo** is a showcase project, where I implemend and add feature while
 - pnpm install
 - pnpm build
 - pnpm graph
-- pnpm build:components-core
+- pnpm build:components-web
 - pnpm app:testing
 - pnpm lint
 - pnpm storybook

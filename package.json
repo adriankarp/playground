@@ -1,6 +1,6 @@
 {
   "name": "playground",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "showcase personal project",
   "author": "Adrian Karp",
   "license": "GNU General Public License v3.0",
@@ -8,7 +8,7 @@
     "build": "pnpx nx run-many --target=build",
     "graph": "pnpx nx graph",
     "app:testing": "pnpx nx start testing",
-    "build:components": "pnpx nx build components",
+    "build:components-web": "pnpx nx build @playground/components-web",
     "format": "npm run prettier:fix && npm run lint:fix",
     "lint": "pnpm eslint apps",
     "lint:fix": "npm run lint -- --fix",
@@ -28,7 +28,7 @@
     "@types/node": "^16.11.62",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
-    "components": "workspace:*",
+    "@playground/components-web": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -36,6 +36,7 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.19.3",
     "@nrwl/nx-cloud": "latest",
     "@storybook/addon-a11y": "^6.5.12",
     "@storybook/addon-actions": "^6.5.12",

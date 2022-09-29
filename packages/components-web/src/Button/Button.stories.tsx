@@ -3,7 +3,7 @@ import { Button } from './Button'
 import '@fontsource/roboto/400.css'
 
 export default {
-  title: 'Components/Button',
+  title: 'Components/Web/Button',
   component: Button,
 }
 
