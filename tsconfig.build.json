@@ -29,12 +29,5 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "composite": true
-  },
-  "include": ["**/src/**/*", "**/src/*"],
-  "exclude": [
-    "**/*.test.*",
-    "**/__mocks__/*",
-    "**/__tests__/*",
-    "**/__snapshots__/*"
-  ]
+  }
 }

@@ -5,5 +5,12 @@
       "@playground/app-testing": ["./apps/testing/*"],
       "@playground/components-web": ["./packages/components-web/*"]
     }
-  }
+  },
+  "include": ["**/src/**/*", "**/src/*"],
+  "exclude": [
+    "**/*.test.*",
+    "**/__mocks__/*",
+    "**/__tests__/*",
+    "**/__snapshots__/*"
+  ]
 }
