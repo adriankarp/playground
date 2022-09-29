@@ -22,7 +22,7 @@ jobs:
 
         npx nx affected --target=lint --parallel=3
 
-        pnpm jest
+        pnpm jest -u
 
         npx nx affected --target=build --parallel=3
 
