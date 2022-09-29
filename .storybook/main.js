@@ -22,6 +22,7 @@ module.exports = {
     '@storybook/addon-a11y/register',
     '@storybook/addon-storysource',
     '@storybook/addon-essentials',
+    '@storybook/preset-create-react-app',
   ],
   webpackFinal: async (config) => {
     config.plugins.push(
