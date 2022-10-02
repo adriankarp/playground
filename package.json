@@ -1,7 +1,7 @@
 {
   "name": "playground",
   "version": "0.1.0",
-  "description": "showcase personal project",
+  "description": "showcase monorepo project",
   "author": "Adrian Karp",
   "license": "GNU General Public License v3.0",
   "scripts": {
@@ -9,7 +9,6 @@
     "test": "jest",
     "graph": "pnpx nx graph",
     "app:testing": "pnpx nx start @playground/app-testing",
-    "build:components-web": "pnpx nx build @playground/components-web",
     "format": "npm run prettier:fix && npm run lint:fix",
     "lint": "pnpm eslint apps",
     "lint:fix": "npm run lint -- --fix",
@@ -22,7 +21,6 @@
     "@emotion/styled": "^11.10.4",
     "@fontsource/roboto": "^4.5.8",
     "@mui/material": "^5.10.7",
-    "@playground/components-web": "workspace:*",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

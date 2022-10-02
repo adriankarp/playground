@@ -1,11 +1,5 @@
 {
   "extends": "./tsconfig.build.json",
-  "compilerOptions": {
-    "paths": {
-      "@playground/app-testing": ["./apps/testing/*"],
-      "@playground/components-web": ["./packages/components-web/*"]
-    }
-  },
   "include": ["**/src/**/*", "**/src/*"],
   "exclude": [
     "**/*.test.*",
