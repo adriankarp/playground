@@ -21,3 +21,9 @@ this **monorepo** is a showcase project, where I implemend and add feature while
 - pnpm storybook
 
 - dependencies handled at root level
+
+
+- pnpm --filter @playground/playground-space start
+- pnpm --filter @playground/playground-space build
+- pnpm --filter @playground/components-web build
+- pnpm run --parallel -r build 
