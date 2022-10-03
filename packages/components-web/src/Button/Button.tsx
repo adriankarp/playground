@@ -1,7 +1,8 @@
 import React from 'react'
+import { default as BaseButton } from '@mui/material/Button'
 
 export const Button = ({ onClick, label }: Props) => {
-  return <button onClick={onClick}>{label}</button>
+  return <BaseButton onClick={onClick}>{label}</BaseButton>
 }
 
 type Props = {
