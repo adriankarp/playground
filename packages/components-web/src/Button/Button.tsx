@@ -1,16 +1,13 @@
+import React from 'react'
 import { default as BaseButton } from '@mui/material/Button'
 
 export const Button = ({ onClick, label }: Props) => {
-  return (
-    <div>
-      <BaseButton variant="outlined" onClick={onClick}>
-        {label}
-      </BaseButton>
-    </div>
-  )
+  return <BaseButton onClick={onClick}>{label}</BaseButton>
 }
 
 type Props = {
   onClick: () => void
   label: string
 }
+
+export default Button
