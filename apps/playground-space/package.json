@@ -1,7 +1,7 @@
 {
   "name": "@playground/playground-space",
   "version": "1.0.0",
-  "description": "",
+  "description": "a space for testing ideas",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --mode development",

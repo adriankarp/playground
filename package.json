@@ -1,7 +1,7 @@
 {
   "name": "playground",
   "version": "1.0.0",
-  "description": "",
+  "description": "monorepo used to showcase projects",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "pnpm eslint apps",

@@ -1,7 +1,7 @@
 {
   "name": "@playground/components-web",
   "version": "1.0.0",
-  "description": "",
+  "description": "web UI components library",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist && tsc"
