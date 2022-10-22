@@ -10,7 +10,7 @@ importers:
       husky: 8.0.1
       nx: 15.0.1
 
-  apps/playground-space:
+  packages/apps/playground-space:
     specifiers:
       '@babel/core': ^7.19.3
       '@babel/preset-env': ^7.19.3
@@ -33,7 +33,7 @@ importers:
     dependencies:
       '@fontsource/roboto': 4.5.8
       '@mui/icons-material': 5.10.9_z3olqqf34i6isisqzfodoltscq
-      '@playground/components-web': link:../../packages/components/web
+      '@playground/components-web': link:../../components/web
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
