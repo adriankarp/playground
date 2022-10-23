@@ -9,7 +9,7 @@ Monorepo used to implement and showcase different projects and technologies usin
 - Monorepo built with `pnpm workspaces && NX`
 - `packages/**` based folder structure
 - Shared codebase between packages
-- Package name convetion is `@playground/package-name`
+- Package name convention is `@playground/package-name`
 - JavaScript ecosystem based
 
 ## Documentation
