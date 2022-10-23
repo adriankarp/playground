@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nx": "^15.0.1",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "nx": "^15.0.1"
   }
 }
