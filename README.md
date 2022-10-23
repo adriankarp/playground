@@ -23,10 +23,12 @@ this **monorepo** is a showcase project, where I implemend and add feature while
 - pnpm lint
 - pnpm storybook
 
-- dependencies handled at root level
 
 
-- pnpm --filter @playground/playground-space dev
-- pnpm --filter @playground/playground-space build
-- pnpm --filter @playground/components-web build
-- pnpm run --parallel -r build 
+- npx nx dev @playground/playground-space
+- npx nx build @playground/playground-space
+- npx nx build @playground/components-web
+- npx nx run-many --target=build --all (build all packages)
+- npx nx graph
+- npx nx affected:graph (graph for affected packages)
+- npx nx affected:build (build for affected packages)
