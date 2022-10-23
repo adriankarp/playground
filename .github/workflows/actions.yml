@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - develop
+      - main
+  pull_request:
+
+jobs:
+  main:
+    name: Nx Cloud - Main Job
+
+    uses: nrwl/ci/.github/workflows/nx-cloud-main.yml@v0.7
+
+    with:
+      number-of-agents: 3
+
+      parallel-commands: |
+
+      parallel-commands-on-agents: |
+
+        # pnpm lint 
+
+        # pnpm jest -u 
+
+        # pnpm build
+
+  agents:
+    name: Nx Cloud - Agents
+
+    uses: nrwl/ci/.github/workflows/nx-cloud-agents.yml@v0.7
+
+    with:
+      number-of-agents: 3
