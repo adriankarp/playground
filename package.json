@@ -4,14 +4,29 @@
   "description": "monorepo used to showcase projects",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "pnpm eslint apps",
-    "prepare": "husky install"
+    "lint": "pnpm eslint 'packages/**/*.ts' 'packages/**/*.tsx'",
+    "lint:fix": "pnpm eslint --fix 'packages/**/*.ts' 'packages/**/*.tsx'",
+    "lint-staged": "lint-staged",
+    "prettier-format": "prettier --config .prettierrc 'packages/**/*.ts' --write"
+  },
+  "lint-staged": {
+    "*.tsx": "pnpm lint",
+    "*.ts": "pnpm lint"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "husky": "^8.0.0",
+    "lint-staged": "^13.0.3",
     "nx": "^15.0.1"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
   }
 }
