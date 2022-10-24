@@ -20,7 +20,7 @@ jobs:
 
       parallel-commands-on-agents: |
 
-        # pnpm lint 
+        pnpm lint 
 
         # pnpm jest -u 
 
