@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "monorepo used to showcase projects",
   "scripts": {
+    "clean": "git clean -fXd",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "pnpm eslint 'packages/**/*.ts' 'packages/**/*.tsx'",
     "lint:fix": "pnpm eslint --fix 'packages/**/*.ts' 'packages/**/*.tsx'",
