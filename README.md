@@ -9,7 +9,7 @@ Monorepo used to implement and showcase different projects and technologies usin
 - Monorepo built with `pnpm workspaces && NX`
 - `packages/**` based folder structure
 - Shared codebase between packages
-- Package name convetion is `@playground/package-name`
+- Package name convention is `@playground/package-name`
 - JavaScript ecosystem based
 
 ## Documentation
@@ -24,6 +24,12 @@ Monorepo used to implement and showcase different projects and technologies usin
 pnpm install
 ```
 
+## Packages
+
+| name      | description |
+| ----------- | ----------- |
+| @playground/components-web | web UI components library based on [MUI](https://mui.com/) |
+| ... | ... |
 
 ## Scripts
 
@@ -31,16 +37,17 @@ Scripts are executed from root level
 
 | command      | description |
 | ----------- | ----------- |
+| npx nx **command** **@playground/package-name** | run **command** for **@playground/package-name**  |
 | npx nx run-many --target=build --all | build all packages |
 | npx nx affected:build | build only affected packages |
 | npx nx graph   | graph for all packages |
 | npx nx affected:graph | graph only for affected packages |
-| npx nx **command** **@playground/package-name** | run **command** for **@playground/package-name**  |
+
 
 ## Roadmap
 
 - Monorepo setup & shared code between packages ✅
-- Web components library based on MUI ⏳
+- Web components library based on [MUI](https://mui.com/) ⏳
 - TBA.. ⏳
 
 
