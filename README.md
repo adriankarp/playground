@@ -36,16 +36,16 @@ Scripts are executed from root level
 | ----------------------------------------------- | ------------------------------------------------ |
 | npx nx **command** **@playground/package-name** | run **command** for **@playground/package-name** |
 | npx nx run-many --target=build --all            | build all packages                               |
-| npx nx affected:build                           | build only affected packages                     |
 | npx nx graph                                    | graph for all packages                           |
+| npx nx affected:build                           | build only affected packages                     |
 | npx nx affected:graph                           | graph only for affected packages                 |
 
 ## Roadmap
 
 | goal                                                    | status |
 | ------------------------------------------------------- | ------ |
-| Monorepo setup & shared code between packages           | ✅     |
-| Web components library based on [MUI](https://mui.com/) | ⏳     |
+| monorepo setup & shared code between packages           | ✅     |
+| web components library based on [MUI](https://mui.com/) | ⏳     |
 | TBA..                                                   | ⏳     |
 
 ## Contributing

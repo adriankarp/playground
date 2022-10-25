@@ -1,3 +1,10 @@
+## 25.10.2022
+
+- Storybook configuration for web components
+<!-- - Jest configuration -->
+
+---
+
 ## 24.10.2022
 
 - Configured ESLint and Prettier
