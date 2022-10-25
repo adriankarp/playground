@@ -15,8 +15,7 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier",
-    "airbnb"
+    "prettier"
   ],
   "rules": {
     "no-console": 1,
@@ -29,7 +28,8 @@
     "import/extensions": 0,
     "import/no-unresolved": 0,
     "react/function-component-definition": 0,
-    "arrow-body-style": 0
+    "arrow-body-style": 0,
+    "@typescript-eslint/no-empty-function": 0
   },
   "overrides": [{ "files": ["**/*.ts", "**/*.tsx"] }]
 }

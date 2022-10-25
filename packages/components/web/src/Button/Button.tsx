@@ -6,8 +6,8 @@ export const Button = ({ onClick, label }: Props) => {
 };
 
 type Props = {
-  onClick: () => void;
   label: string;
+  onClick?: () => void;
 };
 
 export default Button;

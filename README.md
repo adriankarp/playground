@@ -1,8 +1,6 @@
-
 # playground
 
 Monorepo used to implement and showcase different projects and technologies using JavaScript ecosystem.
-
 
 ## About
 
@@ -15,43 +13,49 @@ Monorepo used to implement and showcase different projects and technologies usin
 ## Documentation
 
 - Each package has its own `README.md` file with documentation
-- *i.e.* `packages/components/web/README.md`
+- _i.e._ `packages/components/web/README.md`
 
- 
 ## Intitial setup
 
 ```
 pnpm install
 ```
 
+## Storybook
+
+- Launch storybook for components using `pnpm storybook`
+
 ## Packages
 
-| name      | description |
-| ----------- | ----------- |
-| @playground/components-web | web UI components library based on [MUI](https://mui.com/) |
-| ... | ... |
+| name                       | path                        | description                                                |
+| -------------------------- | --------------------------- | ---------------------------------------------------------- |
+| @playground/components-web | `./packages/components/web` | web UI components library based on [MUI](https://mui.com/) |
+| ...                        | ...                         | ...                                                        |
 
 ## Scripts
 
 Scripts are executed from root level
 
-| command      | description |
-| ----------- | ----------- |
-| npx nx **command** **@playground/package-name** | run **command** for **@playground/package-name**  |
-| npx nx run-many --target=build --all | build all packages |
-| npx nx affected:build | build only affected packages |
-| npx nx graph   | graph for all packages |
-| npx nx affected:graph | graph only for affected packages |
-
+| command                                         | description                                      |
+| ----------------------------------------------- | ------------------------------------------------ |
+| npx nx **command** **@playground/package-name** | run **command** for **@playground/package-name** |
+| pnpm storybook                                  | run storybook                                    |
+| pnpm build:storybook                            | build storybook                                  |
+| npx nx run-many --target=build --all            | build all packages                               |
+| npx nx graph                                    | graph for all packages                           |
+| npx nx affected:build                           | build only affected packages                     |
+| npx nx affected:graph                           | graph only for affected packages                 |
 
 ## Roadmap
 
-- Monorepo setup & shared code between packages ✅
-- Web components library based on [MUI](https://mui.com/) ⏳
-- TBA.. ⏳
-
+| goal                                                    | status |
+| ------------------------------------------------------- | ------ |
+| monorepo setup & shared code between packages           | ✅     |
+| web components library based on [MUI](https://mui.com/) | ⏳     |
+| TBA..                                                   | ⏳     |
 
 ## Contributing
+
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for ways to get started
@@ -69,4 +73,3 @@ If you have any feedback, please reach out to me at karp.adrian@protonmail.com
 ## Authors
 
 - [@adriankarp](https://www.github.com/adriankarp)
-
