@@ -26,10 +26,10 @@ pnpm install
 
 ## Packages
 
-| name      | description |
-| ----------- | ----------- |
-| @playground/components-web | web UI components library based on [MUI](https://mui.com/) |
-| ... | ... |
+| name      | path |description |
+| ----------- | ----------- | ----------- |
+| @playground/components-web | `./packages/components/web` | web UI components library based on [MUI](https://mui.com/) |
+| ... | ... | ... |
 
 ## Scripts
 
@@ -46,10 +46,11 @@ Scripts are executed from root level
 
 ## Roadmap
 
-- Monorepo setup & shared code between packages ✅
-- Web components library based on [MUI](https://mui.com/) ⏳
-- TBA.. ⏳
-
+| goal  |  status   | 
+|---|----|
+| Monorepo setup & shared code between packages | ✅ |
+| Web components library based on [MUI](https://mui.com/) | ⏳ |
+| TBA.. | ⏳ |
 
 ## Contributing
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
