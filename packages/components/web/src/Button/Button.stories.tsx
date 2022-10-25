@@ -8,7 +8,5 @@ export default {
 
 // ----------------------------------------------------------------
 
-export const Primary = (args) => {
-  <Button {...args} />;
-};
-Primary.args = { label: 'Primary button', onClick: () => {} };
+export const Primary = (args) => <Button {...args} />;
+Primary.args = { label: 'Primary button' };
