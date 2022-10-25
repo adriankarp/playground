@@ -7,12 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "pnpm eslint 'packages/**/*.ts' 'packages/**/*.tsx'",
     "lint:fix": "pnpm eslint --fix 'packages/**/*.ts' 'packages/**/*.tsx'",
-    "prettier:format": "prettier --config .prettierrc 'packages/**/*.ts' --write"
+    "prettier:format": "prettier --config .prettierrc 'packages/**/*.ts' --write",
+    "storybook": "start-storybook --port 8080"
   },
   "keywords": [],
   "author": "Adrian Karp",
   "license": "GNU GPL 3.0",
   "devDependencies": {
+    "@storybook/addons": "^6.5.13",
+    "@storybook/api": "^6.5.13",
+    "@storybook/builder-webpack5": "^6.5.13",
+    "@storybook/manager-webpack5": "^6.5.13",
+    "@storybook/preset-create-react-app": "^4.1.2",
+    "@storybook/react": "^6.5.13",
     "@typescript-eslint/eslint-plugin": "^5.40.1",
     "@typescript-eslint/parser": "^5.40.1",
     "eslint": "^8.2.0",
@@ -23,11 +30,10 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0lint-staged",
+    "eslint-plugin-storybook": "^0.6.6",
     "husky": "^8.0.0",
     "nx": "^15.0.1",
-    "prettier": "^2.7.1"
-  },
-  "dependencies": {
-    "@storybook/preset-create-react-app": "^4.1.2"
+    "prettier": "^2.7.1",
+    "webpack": "^5.74.0"
   }
 }
