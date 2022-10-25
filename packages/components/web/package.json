@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist && tsc",
-    "storybook": "start-storybook --port 6000",
+    "storybook": "start-storybook --port 6006",
     "build:storybook": "build-storybook --output-dir storybook-dist"
   },
   "keywords": [],
@@ -17,18 +17,19 @@
     "@fontsource/roboto": "^4.5.8",
     "@mui/material": "^5.10.7",
     "@types/node": "^16.11.62",
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "webpack": "^5.74.0"
   },
   "devDependencies": {
-    "typescript": "^4.8.4",
-    "storybook-i18n": "^1.1.4",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
     "@storybook/addons": "^6.5.12",
     "@storybook/api": "^6.5.12",
     "@storybook/builder-webpack5": "^6.5.12",
     "@storybook/manager-webpack5": "^6.5.12",
     "@storybook/react": "^6.5.12",
-    "@storybook/addon-essentials": "^6.5.12",
-    "@storybook/addon-links": "^6.5.12",
-    "eslint-plugin-storybook": "^0.6.4"
+    "eslint-plugin-storybook": "^0.6.4",
+    "storybook-i18n": "^1.1.4",
+    "typescript": "^4.8.4"
   }
 }

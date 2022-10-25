@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "pnpm eslint 'packages/**/*.ts' 'packages/**/*.tsx'",
     "lint:fix": "pnpm eslint --fix 'packages/**/*.ts' 'packages/**/*.tsx'",
-    "prettier-format": "prettier --config .prettierrc 'packages/**/*.ts' --write"
+    "prettier:format": "prettier --config .prettierrc 'packages/**/*.ts' --write"
   },
   "keywords": [],
   "author": "Adrian Karp",
