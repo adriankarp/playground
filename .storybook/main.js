@@ -1,42 +1,35 @@
-const fs = require('fs')
-const webpack = require('webpack')
+const fs = require('fs');
+const webpack = require('webpack');
 
 const stories = eval(
   `__tmp=${fs.readFileSync('./.storybook/stories.json').toString()}`
-)
+);
 
 module.exports = {
   features: {
-    storyStoreV7: true,
+    storyStoreV7: true
   },
   typescript: {
-    reactDocgen: 'react-docgen',
+    reactDocgen: 'react-docgen'
   },
   core: {
-    builder: 'webpack5',
+    builder: 'webpack5'
   },
   stories: [...stories.map((s) => `../${s}/**/*.stories.@(js|tsx)`)],
-  addons: [
-    '@storybook/addon-actions',
-    '@storybook/addon-links',
-    '@storybook/addon-a11y/register',
-    '@storybook/addon-storysource',
-    '@storybook/addon-essentials',
-    '@storybook/preset-create-react-app',
-  ],
+  addons: ['@storybook/addon-essentials', '@storybook/preset-create-react-app'],
   webpackFinal: async (config) => {
     config.plugins.push(
       new webpack.DefinePlugin({
         process: {
-          env: {},
-        },
+          env: {}
+        }
       })
-    )
+    );
 
     config.module.rules.push({
       test: /\.scss$/,
-      use: ['css-loader', 'sass-loader'],
-    })
+      use: ['css-loader', 'sass-loader']
+    });
 
     config.module.rules = config.module.rules.map((rule) => {
       if (
@@ -47,19 +40,19 @@ module.exports = {
       ) {
         return {
           ...rule,
-          test: /\.(ico|jpg|jpeg|png|apng|gif|eot|otf|webp|ttf|woff|woff2|cur|ani|pdf)(\?.*)?$/,
-        }
+          test: /\.(ico|jpg|jpeg|png|apng|gif|eot|otf|webp|ttf|woff|woff2|cur|ani|pdf)(\?.*)?$/
+        };
       }
 
-      return rule
-    })
+      return rule;
+    });
 
     config.module.rules.unshift({
       test: /\.svg$/,
-      use: ['@svgr/webpack'],
-    })
+      use: ['@svgr/webpack']
+    });
 
-    return config
+    return config;
   },
-  framework: '@storybook/react',
-}
+  framework: '@storybook/react'
+};

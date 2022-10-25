@@ -26,5 +26,8 @@
     "husky": "^8.0.0",
     "nx": "^15.0.1",
     "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "@storybook/preset-create-react-app": "^4.1.2"
   }
 }
