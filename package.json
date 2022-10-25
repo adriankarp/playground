@@ -9,7 +9,7 @@
     "lint:fix": "pnpm eslint --fix 'packages/**/*.ts' 'packages/**/*.tsx'",
     "prettier:format": "prettier --config .prettierrc 'packages/**/*.ts' --write",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook --output-dir ./storybook-dist"
+    "build:storybook": "build-storybook --output-dir ./storybook-dist"
   },
   "keywords": [],
   "author": "Adrian Karp",

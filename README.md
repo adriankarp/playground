@@ -21,6 +21,10 @@ Monorepo used to implement and showcase different projects and technologies usin
 pnpm install
 ```
 
+## Storybook
+
+- Launch storybook for components using `pnpm storybook`
+
 ## Packages
 
 | name                       | path                        | description                                                |
@@ -35,6 +39,8 @@ Scripts are executed from root level
 | command                                         | description                                      |
 | ----------------------------------------------- | ------------------------------------------------ |
 | npx nx **command** **@playground/package-name** | run **command** for **@playground/package-name** |
+| pnpm storybook                                  | run storybook                                    |
+| pnpm build:storybook                            | build storybook                                  |
 | npx nx run-many --target=build --all            | build all packages                               |
 | npx nx graph                                    | graph for all packages                           |
 | npx nx affected:build                           | build only affected packages                     |
