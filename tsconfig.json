@@ -1,16 +1,10 @@
 {
   "compilerOptions": {
-    "module": "CommonJS",
-    "declaration": true,
-    "noImplicitAny": false,
-    "noLib": false,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
+    "jsx": "react",
     "allowJs": true,
-    "target": "ESNext",
-    "sourceMap": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "module": "ESNext",
     "moduleResolution": "Node16",
     "outDir": "./dist"
   },
