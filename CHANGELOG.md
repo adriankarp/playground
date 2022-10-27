@@ -1,7 +1,7 @@
 ## 25.10.2022
 
 - Storybook configuration for web components
-<!-- - Jest configuration -->
+- Jest configuration
 
 ---
 
