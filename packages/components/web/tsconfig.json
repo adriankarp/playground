@@ -9,13 +9,12 @@
     "skipLibCheck": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
     "incremental": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true
   },
-  "include": ["src/**/*"],
+  "include": ["."],
   "exclude": ["**/dist", "**/node_modules", "**/*.spec.ts", "**/__snapshots__"]
 }
