@@ -1,4 +1,3 @@
-
 # playground
 
 Monorepo used to implement and showcase different projects and technologies using JavaScript ecosystem.
@@ -26,7 +25,7 @@ pnpm install
 
 Scripts are executed from root level
 
-| name                              | description                           |
+| name                              | description                          |
 | --------------------------------- | ------------------------------------ |
 | pnpm **package-name**:**command** | run **command** for **package-name** |
 | pnpm storybook                    | run storybook                        |
