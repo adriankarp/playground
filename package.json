@@ -9,7 +9,12 @@
     "lint:fix": "pnpm eslint --fix 'packages/**/*.ts' 'packages/**/*.tsx'",
     "prettier:format": "prettier --config .prettierrc 'packages/**/*.ts' --write",
     "storybook": "start-storybook -p 6006",
-    "build:storybook": "build-storybook --output-dir ./storybook-dist"
+    "build:storybook": "build-storybook --output-dir ./storybook-dist",
+    "graph": "npx nx graph",
+    "graph:affected": "npx nx affected:graph",
+    "build": "npx nx run-many --target=build --all",
+    "build:affected": "npx nx affected:build",
+    "components-web:build": "npx nx build @playground/components-web"
   },
   "keywords": [],
   "author": "Adrian Karp",
@@ -36,6 +41,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^18.11.7",
+    "@types/react": "^18.0.23",
     "@typescript-eslint/eslint-plugin": "^5.41.0",
     "@typescript-eslint/parser": "^5.41.0",
     "babel-jest": "^29.2.2",
