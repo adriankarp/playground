@@ -1,7 +1,12 @@
+
 # playground
 
 Monorepo used to implement and showcase different projects and technologies using JavaScript ecosystem.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 ## About
 
 - Monorepo built with `pnpm workspaces && NX`
@@ -13,18 +18,29 @@ Monorepo used to implement and showcase different projects and technologies usin
 ## Documentation
 
 - Each package has its own `README.md` file with documentation
+<<<<<<< HEAD
 - _i.e._ `packages/components/web/README.md`
 
+=======
+- *i.e.* `packages/components/web/README.md`
+
+ 
+>>>>>>> main
 ## Intitial setup
 
 ```
 pnpm install
 ```
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 ## Scripts
 
 Scripts are executed from root level
 
+<<<<<<< HEAD
 | name                              | description                          |
 | --------------------------------- | ------------------------------------ |
 | pnpm **package-name**:**command** | run **command** for **package-name** |
@@ -63,6 +79,24 @@ Scripts are executed from root level
 
 ## Contributing
 
+=======
+| command      | description |
+| ----------- | ----------- |
+| npx nx run-many --target=build --all | build all packages |
+| npx nx affected:build | build only affected packages |
+| npx nx graph   | graph for all packages |
+| npx nx affected:graph | graph only for affected packages |
+| npx nx **command** **@playground/package-name** | run **command** for **@playground/package-name**  |
+
+## Roadmap
+
+- Monorepo setup & shared code between packages ✅
+- Web components library based on MUI ⏳
+- TBA.. ⏳
+
+
+## Contributing
+>>>>>>> main
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for ways to get started
@@ -80,3 +114,7 @@ If you have any feedback, please reach out to me at karp.adrian@protonmail.com
 ## Authors
 
 - [@adriankarp](https://www.github.com/adriankarp)
+<<<<<<< HEAD
+=======
+
+>>>>>>> main

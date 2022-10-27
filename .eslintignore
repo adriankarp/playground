@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 node_modules
+=======
+>>>>>>> main
 **/node_modules/**
 **/.storybook/**
 **/dist/**
