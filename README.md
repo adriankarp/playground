@@ -21,30 +21,37 @@ Monorepo used to implement and showcase different projects and technologies usin
 pnpm install
 ```
 
-## Storybook
-
-- Launch storybook for components using `pnpm storybook`
-
-## Packages
-
-| name                       | path                        | description                                                |
-| -------------------------- | --------------------------- | ---------------------------------------------------------- |
-| @playground/components-web | `./packages/components/web` | web UI components library based on [MUI](https://mui.com/) |
-| ...                        | ...                         | ...                                                        |
-
 ## Scripts
 
 Scripts are executed from root level
 
-| command                                         | description                                      |
-| ----------------------------------------------- | ------------------------------------------------ |
-| npx nx **command** **@playground/package-name** | run **command** for **@playground/package-name** |
-| pnpm storybook                                  | run storybook                                    |
-| pnpm build:storybook                            | build storybook                                  |
-| npx nx run-many --target=build --all            | build all packages                               |
-| npx nx graph                                    | graph for all packages                           |
-| npx nx affected:build                           | build only affected packages                     |
-| npx nx affected:graph                           | graph only for affected packages                 |
+| name                              | description                          |
+| --------------------------------- | ------------------------------------ |
+| pnpm **package-name**:**command** | run **command** for **package-name** |
+| pnpm storybook                    | run storybook                        |
+| pnpm storybook:build              | build storybook                      |
+| pnpm build                        | build all packages                   |
+| pnpm build:affected               | build only affected packages         |
+| pnpm graph                        | graph for all packages               |
+| pnpm graph:affected               | graph only for affected packages     |
+
+## Packages
+
+### Components
+
+#### Web
+
+##### Details
+
+| name                       | path                        | description                                                |
+| -------------------------- | --------------------------- | ---------------------------------------------------------- |
+| @playground/components-web | `./packages/components/web` | web UI components library based on [MUI](https://mui.com/) |
+
+##### Scripts
+
+| script                    | description                 |
+| ------------------------- | --------------------------- |
+| pnpm components-web:build | `./packages/components/web` |
 
 ## Roadmap
 

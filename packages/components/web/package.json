@@ -4,9 +4,7 @@
   "description": "web UI components library",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rm -rf dist && tsc",
-    "storybook": "start-storybook --port 8008",
-    "build:storybook": "build-storybook --output-dir storybook-dist"
+    "build": "rm -rf dist && tsc" 
   },
   "keywords": [],
   "author": "",
