@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "allowJs": true,
+    "lib": ["ES2021"],
+    "module": "CommonJS",
+    "target": "ES2021",
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "module": "ESNext",
-    "moduleResolution": "Node16",
-    "outDir": "./dist"
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "Node"
   },
   "include": ["."],
   "exclude": ["**/dist", "**/node_modules", "**/*.spec.ts", "**/__snapshots__"]
