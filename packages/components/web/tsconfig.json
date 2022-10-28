@@ -3,8 +3,8 @@
     "jsx": "react",
     "allowSyntheticDefaultImports": true,
     "outDir": "./dist",
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext", "es6"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -13,7 +13,10 @@
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true
   },
   "include": ["."],
   "exclude": ["**/dist", "**/node_modules", "**/*.spec.ts", "**/__snapshots__"]
