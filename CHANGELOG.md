@@ -7,6 +7,7 @@
 - ButtonGroup 
 - ToggleButton
 - ToggleButtonGroup
+- TextInput
 
 ---
 
