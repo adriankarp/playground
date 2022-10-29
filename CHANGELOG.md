@@ -1,3 +1,15 @@
+## 29.10.2022
+
+- Text 
+- Button 
+- IconButton 
+- LoadingButton 
+- ButtonGroup 
+- ToggleButton
+- ToggleButtonGroup
+
+---
+
 ## 25.10.2022
 
 - Storybook configuration for web components

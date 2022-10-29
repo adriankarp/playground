@@ -2,8 +2,8 @@ import React from 'react';
 import { default as BaseButton } from '@mui/material/Button';
 
 export const Button = ({
-  variant,
   label,
+  variant,
   href,
   onClick,
   color,
@@ -35,8 +35,8 @@ export const Button = ({
 };
 
 type Props = {
-  variant: 'contained' | 'outlined' | 'text';
   label: string;
+  variant?: 'contained' | 'outlined' | 'text';
   href?: string;
   onClick?: () => void;
   color?: 'primary' | 'secondary' | 'warning' | 'error' | 'info' | 'success';
