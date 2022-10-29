@@ -3,7 +3,7 @@ import { Text } from './Text';
 import { faker } from '@faker-js/faker';
 
 export default {
-  title: 'Components/Atoms/Text'
+  title: 'Components/Display/Text'
 };
 
 // ----------------------------------------------------------------

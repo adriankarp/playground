@@ -135,6 +135,8 @@ importers:
       '@emotion/styled': ^11.10.4
       '@faker-js/faker': ^7.6.0
       '@fontsource/roboto': ^4.5.8
+      '@mui/icons-material': ^5.10.9
+      '@mui/lab': 5.0.0-alpha.105
       '@mui/material': ^5.10.11
       '@mui/styles': ^5.10.10
       '@types/node': ^16.11.62
@@ -150,6 +152,8 @@ importers:
       '@emotion/react': 11.10.4_k5j6kbjebdyn2uzzhpiz6ga4fe
       '@emotion/styled': 11.10.4_qgnqdjtlxc25opjastkfyar724
       '@fontsource/roboto': 4.5.8
+      '@mui/icons-material': 5.10.9_dl4zfq4wmflnc4bmgvttvmx37e
+      '@mui/lab': 5.0.0-alpha.105_ecp5z24755gvkr4sb5bknzvyby
       '@mui/material': 5.10.11_uliubsjsh475tiqsbpj3cyikla
       '@mui/styles': 5.10.10_i2izv7j3km4zzxbpzq2d4xtojy
       '@types/node': 16.18.0
@@ -2626,6 +2630,57 @@ packages:
 
   /@mui/core-downloads-tracker/5.10.11:
     resolution: {integrity: sha512-u5ff+UCFDHcR8MoQ8tuJR4c35vt7T/ki3aMEE2O3XQoGs8KJSrBiisFpFKyldg9/W2NSyoZxN+kxEGIfRxh+9Q==}
+    dev: false
+
+  /@mui/icons-material/5.10.9_dl4zfq4wmflnc4bmgvttvmx37e:
+    resolution: {integrity: sha512-sqClXdEM39WKQJOQ0ZCPTptaZgqwibhj2EFV9N0v7BU1PO8y4OcX/a2wIQHn4fNuDjIZktJIBrmU23h7aqlGgg==}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      '@mui/material': ^5.0.0
+      '@types/react': ^17.0.0 || ^18.0.0
+      react: ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+    dependencies:
+      '@babel/runtime': 7.19.4
+      '@mui/material': 5.10.11_uliubsjsh475tiqsbpj3cyikla
+      '@types/react': 18.0.23
+      react: 18.2.0
+    dev: false
+
+  /@mui/lab/5.0.0-alpha.105_ecp5z24755gvkr4sb5bknzvyby:
+    resolution: {integrity: sha512-W4AUf8juwPfOomOGHL1Jasr6LW1mlcZUMlad/uf8AKYFOILX1Toonvdqi00iP+xMRndX88/RmLbJy0+nDZiKsg==}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      '@emotion/react': ^11.5.0
+      '@emotion/styled': ^11.3.0
+      '@mui/material': ^5.0.0
+      '@types/react': ^17.0.0 || ^18.0.0
+      react: ^17.0.0 || ^18.0.0
+      react-dom: ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      '@emotion/react':
+        optional: true
+      '@emotion/styled':
+        optional: true
+      '@types/react':
+        optional: true
+    dependencies:
+      '@babel/runtime': 7.19.4
+      '@emotion/react': 11.10.4_k5j6kbjebdyn2uzzhpiz6ga4fe
+      '@emotion/styled': 11.10.4_qgnqdjtlxc25opjastkfyar724
+      '@mui/base': 5.0.0-alpha.103_yyloj25vv7zmuk3uh3z5jonzqq
+      '@mui/material': 5.10.11_uliubsjsh475tiqsbpj3cyikla
+      '@mui/system': 5.10.10_tafe65s2bnwvwedm7hukwbltla
+      '@mui/types': 7.2.0_@types+react@18.0.23
+      '@mui/utils': 5.10.9_react@18.2.0
+      '@types/react': 18.0.23
+      clsx: 1.2.1
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-is: 18.2.0
     dev: false
 
   /@mui/material/5.10.11_uliubsjsh475tiqsbpj3cyikla:
