@@ -7,8 +7,8 @@ export default {
 
 // ----------------------------------------------------------------
 
-export const Filled = (args) => <SelectItem {...args} />;
-Filled.args = {
+export const Default = (args) => <SelectItem {...args} />;
+Default.args = {
   label: 'label',
   value: 'value'
 };
