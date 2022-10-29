@@ -1,9 +1,9 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Button from './Button';
+import Text from './Text';
 
 it('matches snapshot', () => {
-  const component = renderer.create(<Button label="label" />);
+  const component = renderer.create(<Text label="label" />);
   const tree = component.toJSON();
   expect(tree).toMatchSnapshot();
 });

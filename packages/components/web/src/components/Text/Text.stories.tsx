@@ -1,8 +1,8 @@
 import React from 'react';
-import { Button } from './Button';
+import { Text } from './Text';
 
 export default {
-  title: 'Components/Button'
+  title: 'Components/Text'
 };
 
 // ----------------------------------------------------------------
@@ -12,5 +12,5 @@ export const Primary = (
     label: string;
     onClick?: (() => void) | undefined;
   }
-) => <Button {...args} />;
-Primary.args = { label: 'Primary button' };
+) => <Text {...args} />;
+Primary.args = { label: 'Primary Text' };
