@@ -133,6 +133,7 @@ importers:
       '@babel/core': ^7.19.6
       '@emotion/react': ^11.10.4
       '@emotion/styled': ^11.10.4
+      '@faker-js/faker': ^7.6.0
       '@fontsource/roboto': ^4.5.8
       '@mui/material': ^5.10.11
       '@mui/styles': ^5.10.10
@@ -156,6 +157,7 @@ importers:
       react: 18.2.0
       webpack: 5.74.0
     devDependencies:
+      '@faker-js/faker': 7.6.0
       '@types/react': 18.0.23
       '@types/react-dom': 18.0.7
       '@types/react-test-renderer': 18.0.0
@@ -1987,6 +1989,11 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
+
+  /@faker-js/faker/7.6.0:
+    resolution: {integrity: sha512-XK6BTq1NDMo9Xqw/YkYyGjSsg44fbNwYRx7QK2CuoQgyy+f1rrTDHoExVM5PsyXCtfl2vs2vVJ0MN0yN6LppRw==}
+    engines: {node: '>=14.0.0', npm: '>=6.0.0'}
+    dev: true
 
   /@fontsource/roboto/4.5.8:
     resolution: {integrity: sha512-CnD7zLItIzt86q4Sj3kZUiLcBk1dSk81qcqgMGaZe7SQ1P8hFNxhMl5AZthK1zrDM5m74VVhaOpuMGIL4gagaA==}
