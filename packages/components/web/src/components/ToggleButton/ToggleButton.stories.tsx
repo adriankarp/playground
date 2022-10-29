@@ -3,7 +3,7 @@ import { ToggleButton } from './ToggleButton';
 import { FormatBold } from '@mui/icons-material';
 
 export default {
-  title: 'Components/Inputs/ToggleButton',
+  title: 'Components/Buttons/ToggleButton',
   argTypes: {
     color: {
       options: ['primary', 'secondary', 'warning', 'error', 'info', 'success'],

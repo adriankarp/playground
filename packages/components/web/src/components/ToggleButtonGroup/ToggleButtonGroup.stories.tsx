@@ -8,7 +8,7 @@ import {
 } from '@mui/icons-material';
 
 export default {
-  title: 'Components/Inputs/ToggleButtonGroup',
+  title: 'Components/Buttons/ToggleButtonGroup',
   argTypes: {
     color: {
       options: ['primary', 'secondary', 'warning', 'error', 'info', 'success'],
