@@ -4,3 +4,4 @@ export * from './src/components/IconButton/IconButton';
 export * from './src/components/LoadingButton/LoadingButton';
 export * from './src/components/ButtonGroup/ButtonGroup';
 export * from './src/components/ToggleButton/ToggleButton';
+export * from './src/components/ToggleButtonGroup/ToggleButtonGroup';
