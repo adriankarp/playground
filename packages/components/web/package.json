@@ -4,7 +4,7 @@
   "description": "web UI components library",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rm -rf dist && tsc" 
+    "build": "rm -rf dist && tsc"
   },
   "keywords": [],
   "author": "",
@@ -14,13 +14,20 @@
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@fontsource/roboto": "^4.5.8",
-    "@mui/material": "^5.10.7",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/lab": "5.0.0-alpha.105",
+    "@mui/material": "^5.10.11",
+    "@mui/styles": "^5.10.10",
     "@types/node": "^16.11.62",
     "babel-loader": "^8.2.5",
     "react": "^18.2.0",
     "webpack": "^5.74.0"
   },
   "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-test-renderer": "^18.0.0",
     "typescript": "^4.8.4"
   }
 }
