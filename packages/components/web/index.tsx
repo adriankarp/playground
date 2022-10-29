@@ -6,3 +6,5 @@ export * from './src/components/ButtonGroup/ButtonGroup';
 export * from './src/components/ToggleButton/ToggleButton';
 export * from './src/components/ToggleButtonGroup/ToggleButtonGroup';
 export * from './src/components/TextInput/TextInput';
+export * from './src/components/Select/Select';
+export * from './src/components/SelectItem/SelectItem';
