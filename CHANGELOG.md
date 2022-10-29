@@ -1,3 +1,13 @@
+## 29.10.2022
+
+- Text component
+- Button component
+- IconButton component
+- LoadingButton component
+- ButtonGroup component
+
+---
+
 ## 25.10.2022
 
 - Storybook configuration for web components

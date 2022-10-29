@@ -1,4 +1,3 @@
-
 # playground
 
 Monorepo used to implement and showcase different projects and technologies using JavaScript ecosystem.
@@ -15,8 +14,6 @@ Monorepo used to implement and showcase different projects and technologies usin
 
 - Each package has its own `README.md` file with documentation
 - _i.e._ `packages/components/web/README.md`
-
-
 
 ## Intitial setup
 
