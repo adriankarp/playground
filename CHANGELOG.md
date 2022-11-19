@@ -1,17 +1,22 @@
+## 19.11.2022
+
+- Checkbox
+
+---
+
 ## 29.10.2022
 
-- Text 
-- Button 
-- IconButton 
-- LoadingButton 
-- ButtonGroup 
+- Text
+- Button
+- IconButton
+- LoadingButton
+- ButtonGroup
 - ToggleButton
 - ToggleButtonGroup
 - TextInput
 - Select
 - SelectItem
 - RadioButton
-
 
 ---
 
