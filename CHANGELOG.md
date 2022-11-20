@@ -2,6 +2,9 @@
 
 - Checkbox
 - CheckboxWithLabel
+- Switch
+- SwitchWithLabel
+- Rating
 
 ---
 
