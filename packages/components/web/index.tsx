@@ -11,3 +11,4 @@ export * from './src/components/SelectItem/SelectItem';
 export * from './src/components/RadioButton/RadioButton';
 export * from './src/components/Checkbox/Checkbox';
 export * from './src/components/CheckboxWithLabel/CheckboxWithLabel';
+export * from './src/components/Switch/Switch';
