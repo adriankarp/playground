@@ -14,3 +14,4 @@ export * from './src/components/CheckboxWithLabel/CheckboxWithLabel';
 export * from './src/components/Switch/Switch';
 export * from './src/components/SwitchWithLabel/SwitchWithLabel';
 export * from './src/components/Rating/Rating';
+export * from './src/components/Autocomplete/Autocomplete';
