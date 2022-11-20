@@ -2,7 +2,7 @@ import React from 'react';
 import RadioButton from './RadioButton';
 
 export default {
-  title: 'Components/Forms/RadioButton',
+  title: 'Components/Inputs/RadioButton',
   argTypes: {
     color: {
       options: ['primary', 'secondary', 'warning', 'error', 'info', 'success'],

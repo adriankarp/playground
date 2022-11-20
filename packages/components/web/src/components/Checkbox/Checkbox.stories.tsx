@@ -3,7 +3,7 @@ import Checkbox from './Checkbox';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 
 export default {
-  title: 'Components/Forms/Checkbox',
+  title: 'Components/Inputs/Checkbox',
   argTypes: {
     color: {
       options: ['primary', 'secondary', 'warning', 'error', 'info', 'success'],

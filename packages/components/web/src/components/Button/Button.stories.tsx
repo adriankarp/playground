@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from './Button';
 
 export default {
-  title: 'Components/Buttons/Button',
+  title: 'Components/Inputs/Button',
   argTypes: {
     variant: {
       options: ['contained', 'outlined', 'text'],

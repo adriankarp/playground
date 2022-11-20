@@ -3,7 +3,7 @@ import Rating from './Rating';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 
 export default {
-  title: 'Components/Misc/Rating',
+  title: 'Components/Inputs/Rating',
   argTypes: {
     size: {
       options: ['small', 'medium'],

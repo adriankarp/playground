@@ -2,7 +2,7 @@ import React from 'react';
 import Autocomplete from './Autocomplete';
 
 export default {
-  title: 'Components/Misc/Autocomplete',
+  title: 'Components/Inputs/Autocomplete',
   argTypes: {
     size: {
       options: ['small', 'medium'],
