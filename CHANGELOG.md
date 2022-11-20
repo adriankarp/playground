@@ -1,6 +1,7 @@
-## 19.11.2022
+## 20.11.2022
 
 - Checkbox
+- CheckboxWithLabel
 
 ---
 
