@@ -1,4 +1,4 @@
-export * from './src/components/Text/Text';
+// Inputs
 export * from './src/components/Button/Button';
 export * from './src/components/IconButton/IconButton';
 export * from './src/components/LoadingButton/LoadingButton';
@@ -16,3 +16,7 @@ export * from './src/components/SwitchWithLabel/SwitchWithLabel';
 export * from './src/components/Rating/Rating';
 export * from './src/components/Autocomplete/Autocomplete';
 export * from './src/components/FloatingActionButton/FloatingActionButton';
+export * from './src/components/Slider/Slider';
+
+// Data Display
+export * from './src/components/Text/Text';

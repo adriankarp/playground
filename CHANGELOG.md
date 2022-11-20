@@ -7,6 +7,7 @@
 - Rating
 - Autocomplete
 - Floating Action Button
+- Slider
 
 
 ---
