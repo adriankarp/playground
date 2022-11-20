@@ -4,7 +4,7 @@
     "allowSyntheticDefaultImports": true,
     "outDir": "./dist",
     "target": "es6",
-    "lib": ["dom", "dom.iterable", "esnext", "es6"],
+    "lib": ["DOM", "DOM.Iterable", "ESNext", "ES6"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
