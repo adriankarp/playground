@@ -3,7 +3,7 @@ import { IconButton } from './IconButton';
 import HomeIcon from '@mui/icons-material/Home';
 
 export default {
-  title: 'Components/Buttons/IconButton',
+  title: 'Components/Inputs/IconButton',
   argTypes: {
     color: {
       options: ['primary', 'secondary', 'warning', 'error', 'info', 'success'],

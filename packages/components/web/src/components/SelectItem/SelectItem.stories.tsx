@@ -2,7 +2,7 @@ import React from 'react';
 import SelectItem from './SelectItem';
 
 export default {
-  title: 'Components/Forms/SelectItem'
+  title: 'Components/Inputs/SelectItem'
 };
 
 // ----------------------------------------------------------------

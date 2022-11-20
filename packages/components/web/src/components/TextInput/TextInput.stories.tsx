@@ -2,7 +2,7 @@ import React from 'react';
 import { TextInput } from './TextInput';
 
 export default {
-  title: 'Components/Forms/TextInput',
+  title: 'Components/Inputs/TextInput',
   argTypes: {
     variant: {
       options: ['filled', 'outlined', 'standard'],

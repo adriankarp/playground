@@ -3,7 +3,7 @@ import { ButtonGroup } from './ButtonGroup';
 import { Button } from '../Button/Button';
 
 export default {
-  title: 'Components/Buttons/ButtonGroup',
+  title: 'Components/Inputs/ButtonGroup',
   argTypes: {
     color: {
       options: ['primary', 'secondary', 'warning', 'error', 'info', 'success'],

@@ -3,7 +3,7 @@ import { Text } from './Text';
 import { faker } from '@faker-js/faker';
 
 export default {
-  title: 'Components/Display/Text'
+  title: 'Components/Data Display/Text'
 };
 
 // ----------------------------------------------------------------

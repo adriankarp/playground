@@ -2,7 +2,7 @@ import React from 'react';
 import { LoadingButton } from './LoadingButton';
 
 export default {
-  title: 'Components/Buttons/LoadingButton',
+  title: 'Components/Inputs/LoadingButton',
   argTypes: {
     variant: {
       options: ['contained', 'outlined', 'text'],

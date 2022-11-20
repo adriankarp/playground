@@ -3,7 +3,7 @@ import Switch from './Switch';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 
 export default {
-  title: 'Components/Forms/Switch',
+  title: 'Components/Inputs/Switch',
   argTypes: {
     color: {
       options: ['primary', 'secondary', 'warning', 'error', 'info', 'success'],

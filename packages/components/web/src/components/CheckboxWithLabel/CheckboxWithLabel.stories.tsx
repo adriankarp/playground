@@ -3,7 +3,7 @@ import CheckboxWithLabel from './CheckboxWithLabel';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 
 export default {
-  title: 'Components/Forms/CheckboxWithLabel',
+  title: 'Components/Inputs/CheckboxWithLabel',
   argTypes: {
     color: {
       options: ['primary', 'secondary', 'warning', 'error', 'info', 'success'],

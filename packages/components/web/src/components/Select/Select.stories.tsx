@@ -3,7 +3,7 @@ import Select from './Select';
 import SelectItem from '../SelectItem/SelectItem';
 
 export default {
-  title: 'Components/Forms/Select',
+  title: 'Components/Inputs/Select',
   argTypes: {
     variant: {
       options: ['filled', 'outlined', 'standard'],
