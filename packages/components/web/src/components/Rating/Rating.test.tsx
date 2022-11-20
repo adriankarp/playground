@@ -4,7 +4,7 @@ import Rating from './Rating';
 
 describe('Text', () => {
   it('matches snapshot', () => {
-    const component = renderer.create(<Rating value="test" />);
+    const component = renderer.create(<Rating />);
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });

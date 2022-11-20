@@ -1,50 +1,47 @@
 import React from 'react';
-import { default as BaseSwitch } from '@mui/material/Switch';
+import { default as BaseRating } from '@mui/material/Rating';
 
 export const Rating = ({
-  checked,
-  checkedIcon,
-  color,
+  defaultValue,
   disabled,
-  disableRipple,
   icon,
-  required,
+  max,
+  readOnly,
   size,
   style,
-  value
+  precision
 }: Props) => {
-  const [selected, setSelected] = React.useState(checked);
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setSelected((event.target as HTMLInputElement).checked);
+  const [value, setValue] = React.useState<number | null>(
+    defaultValue ? defaultValue : 0
+  );
+  const handleChange = (event: React.ChangeEvent, newValue) => {
+    setValue(newValue);
   };
   return (
-    <BaseSwitch
-      checked={selected}
-      checkedIcon={checkedIcon}
+    <BaseRating
       disabled={disabled}
-      disableRipple={disableRipple}
       icon={icon}
-      required={required}
+      emptyIcon={icon}
+      readOnly={readOnly}
       size={size}
-      color={color}
+      max={max}
       onChange={handleChange}
       sx={style}
       value={value}
+      precision={precision}
     />
   );
 };
 
 type Props = {
-  checked?: boolean;
-  checkedIcon?: React.ReactNode;
-  color?: 'primary' | 'secondary' | 'warning' | 'error' | 'info' | 'success';
+  defaultValue?: number;
   disabled?: boolean;
-  disableRipple?: boolean;
   icon?: React.ReactNode;
-  required?: boolean;
+  max?: number;
+  readOnly?: boolean;
   size?: 'small' | 'medium';
   style?: object;
-  value: string;
+  precision: number;
 };
 
 export default Rating;

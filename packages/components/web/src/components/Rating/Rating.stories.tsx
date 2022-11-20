@@ -1,14 +1,10 @@
 import React from 'react';
 import Rating from './Rating';
-import BookmarkIcon from '@mui/icons-material/Bookmark';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 
 export default {
-  title: 'Components/Forms/Rating',
+  title: 'Components/Misc/Rating',
   argTypes: {
-    color: {
-      options: ['primary', 'secondary', 'warning', 'error', 'info', 'success'],
-      control: { type: 'select' }
-    },
     size: {
       options: ['small', 'medium'],
       control: { type: 'radio' }
@@ -20,30 +16,45 @@ export default {
 
 export const Default = (args) => <Rating {...args} />;
 
-Default.args = {
-  checked: false
+Default.args = {};
+// ----------------------------------------------------------------
+
+export const Custom = (args) => <Rating {...args} />;
+
+Custom.args = {
+  max: 10,
+  defaultValue: 5
 };
 
 // ----------------------------------------------------------------
 
-export const Checked = (args) => <Rating {...args} />;
+export const ReadOnly = (args) => <Rating {...args} />;
 
-Checked.args = {
-  checked: true
+ReadOnly.args = {
+  defaultValue: 3,
+  readOnly: true
 };
 
 // ----------------------------------------------------------------
 
-export const Disabled = (args) => <Rating {...args} />;
+export const Precision = (args) => <Rating {...args} />;
 
-Disabled.args = {
-  disabled: true
+Precision.args = {
+  defaultValue: 3,
+  precision: 0.5
 };
 
 // ----------------------------------------------------------------
 
-export const Icon = (args) => (
-  <Rating {...args} icon={<BookmarkIcon />} checkedIcon={<BookmarkIcon />} />
-);
+export const Icon = (args) => <Rating {...args} icon={<FavoriteIcon />} />;
 
-Icon.args = {};
+Icon.args = {
+  style: {
+    '& .MuiRating-iconFilled': {
+      color: '#ff6d75'
+    },
+    '& .MuiRating-iconHover': {
+      color: '#ff3d47'
+    }
+  }
+};
