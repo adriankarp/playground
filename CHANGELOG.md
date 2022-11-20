@@ -5,6 +5,7 @@
 - Switch
 - SwitchWithLabel
 - Rating
+- Autocomplete
 
 ---
 
