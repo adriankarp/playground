@@ -15,7 +15,7 @@ export const Checkbox = ({
 }: Props) => {
   const [selected, setSelected] = React.useState(checked);
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setSelected(event?.target.checked);
+    setSelected((event.target as HTMLInputElement).checked);
   };
   return (
     <BaseCheckbox
