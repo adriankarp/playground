@@ -41,7 +41,7 @@ type Props = {
   readOnly?: boolean;
   size?: 'small' | 'medium';
   style?: object;
-  precision: number;
+  precision?: number;
 };
 
 export default Rating;
