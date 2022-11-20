@@ -15,7 +15,8 @@
     "graph:affected": "npx nx affected:graph",
     "build": "npx nx run-many --target=build --all",
     "build:affected": "npx nx affected:build",
-    "components-web:build": "npx nx build @playground/components-web"
+    "components-web:build": "npx nx build @playground/components-web",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "Adrian Karp",
@@ -55,7 +56,7 @@
     "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.6.6",
-    "husky": "^8.0.1",
+    "husky": "^8.0.0",
     "jest": "^29.2.2",
     "jest-environment-jsdom": "^29.2.2",
     "nx": "^15.0.3",
