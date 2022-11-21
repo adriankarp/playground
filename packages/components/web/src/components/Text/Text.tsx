@@ -23,7 +23,7 @@ export const Text = ({
 };
 
 type Props = {
-  variant:
+  variant?:
     | 'body1'
     | 'body2'
     | 'button'

@@ -24,3 +24,4 @@ export * from './src/components/Text/Text';
 // Layout
 export * from './src/components/Box/Box';
 export * from './src/components/Stack/Stack';
+export * from './src/components/Grid/Grid';
