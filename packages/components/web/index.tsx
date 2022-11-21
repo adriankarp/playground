@@ -20,3 +20,6 @@ export * from './src/components/Slider/Slider';
 
 // Data Display
 export * from './src/components/Text/Text';
+
+// Layout
+export * from './src/components/Box/Box';
