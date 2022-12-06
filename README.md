@@ -1,8 +1,6 @@
-
 # playground
 
 Monorepo used to implement and showcase different projects and technologies using JavaScript ecosystem.
-
 
 ## About
 
@@ -15,36 +13,51 @@ Monorepo used to implement and showcase different projects and technologies usin
 ## Documentation
 
 - Each package has its own `README.md` file with documentation
-- *i.e.* `packages/components/web/README.md`
+- _i.e._ `packages/components/web/README.md`
 
- 
+## Packages
+
+### Apps
+
+| name                     | path                           | description                                          |
+| ------------------------ | ------------------------------ | ---------------------------------------------------- |
+| @playground/meal-recipes | `./packages/apis/meal-recipes` | GraphQL recipes [OMDb API](https://www.omdbapi.com/) |
+
+### Apis
+
+| name                     | path                           | description                                          |
+| ------------------------ | ------------------------------ | ---------------------------------------------------- |
+| @playground/meal-recipes | `./packages/apis/meal-recipes` | GraphQL recipes [OMDb API](https://www.omdbapi.com/) |
+
 ## Intitial setup
 
 ```
 pnpm install
 ```
 
-
 ## Scripts
 
 Scripts are executed from root level
 
-| command      | description |
-| ----------- | ----------- |
-| npx nx run-many --target=build --all | build all packages |
-| npx nx affected:build | build only affected packages |
-| npx nx graph   | graph for all packages |
-| npx nx affected:graph | graph only for affected packages |
-| npx nx **command** **@playground/package-name** | run **command** for **@playground/package-name**  |
+| name                              | description                          |
+| --------------------------------- | ------------------------------------ |
+| pnpm **package-name**:**command** | run **command** for **package-name** |
+| pnpm storybook                    | run storybook                        |
+| pnpm storybook:build              | build storybook                      |
+| pnpm build                        | build all packages                   |
+| pnpm build:affected               | build only affected packages         |
+| pnpm graph                        | graph for all packages               |
+| pnpm graph:affected               | graph only for affected packages     |
 
 ## Roadmap
 
-- Monorepo setup & shared code between packages ✅
-- Web components library based on MUI ⏳
-- TBA.. ⏳
-
+| goal                                          | status |
+| --------------------------------------------- | ------ |
+| monorepo setup & shared code between packages | ✅     |
+| TBA..                                         | ⏳     |
 
 ## Contributing
+
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for ways to get started
@@ -62,4 +75,3 @@ If you have any feedback, please reach out to me at karp.adrian@protonmail.com
 ## Authors
 
 - [@adriankarp](https://www.github.com/adriankarp)
-
