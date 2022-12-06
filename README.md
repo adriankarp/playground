@@ -15,6 +15,20 @@ Monorepo used to implement and showcase different projects and technologies usin
 - Each package has its own `README.md` file with documentation
 - _i.e._ `packages/components/web/README.md`
 
+## Packages
+
+### Apps
+
+| name                     | path                           | description                                          |
+| ------------------------ | ------------------------------ | ---------------------------------------------------- |
+| @playground/meal-recipes | `./packages/apis/meal-recipes` | GraphQL recipes [OMDb API](https://www.omdbapi.com/) |
+
+### Apis
+
+| name                     | path                           | description                                          |
+| ------------------------ | ------------------------------ | ---------------------------------------------------- |
+| @playground/meal-recipes | `./packages/apis/meal-recipes` | GraphQL recipes [OMDb API](https://www.omdbapi.com/) |
+
 ## Intitial setup
 
 ```
@@ -35,31 +49,12 @@ Scripts are executed from root level
 | pnpm graph                        | graph for all packages               |
 | pnpm graph:affected               | graph only for affected packages     |
 
-## Packages
-
-### Components
-
-#### Web
-
-##### Details
-
-| name                       | path                        | description                                                |
-| -------------------------- | --------------------------- | ---------------------------------------------------------- |
-| @playground/components-web | `./packages/components/web` | web UI components library based on [MUI](https://mui.com/) |
-
-##### Scripts
-
-| script                    | description                 |
-| ------------------------- | --------------------------- |
-| pnpm components-web:build | `./packages/components/web` |
-
 ## Roadmap
 
-| goal                                                    | status |
-| ------------------------------------------------------- | ------ |
-| monorepo setup & shared code between packages           | ✅     |
-| web components library based on [MUI](https://mui.com/) | ⏳     |
-| TBA..                                                   | ⏳     |
+| goal                                          | status |
+| --------------------------------------------- | ------ |
+| monorepo setup & shared code between packages | ✅     |
+| TBA..                                         | ⏳     |
 
 ## Contributing
 
