@@ -19,15 +19,15 @@ Monorepo used to implement and showcase different projects and technologies usin
 
 ### Apps
 
-| name                     | path                           | description                                          |
-| ------------------------ | ------------------------------ | ---------------------------------------------------- |
-| @playground/meal-recipes | `./packages/apis/meal-recipes` | GraphQL recipes [OMDb API](https://www.omdbapi.com/) |
+| name                      | path                      | description                                                                                   |
+| ------------------------- | ------------------------- | --------------------------------------------------------------------------------------------- |
+| `@playground/recipes-app` | `./packages/apis/recipes` | React client which consumes `@playground/recipes-api` [EDAMAM](https://developer.edamam.com/) |
 
 ### Apis
 
-| name                     | path                           | description                                          |
-| ------------------------ | ------------------------------ | ---------------------------------------------------- |
-| @playground/meal-recipes | `./packages/apis/meal-recipes` | GraphQL recipes [OMDb API](https://www.omdbapi.com/) |
+| name                      | path                      | description                                                                  |
+| ------------------------- | ------------------------- | ---------------------------------------------------------------------------- |
+| `@playground/recipes-api` | `./packages/apis/recipes` | GraphQL api for finding food recipes [EDAMAM](https://developer.edamam.com/) |
 
 ## Intitial setup
 
@@ -42,18 +42,19 @@ Scripts are executed from root level
 | name                              | description                          |
 | --------------------------------- | ------------------------------------ |
 | pnpm **package-name**:**command** | run **command** for **package-name** |
-| pnpm storybook                    | run storybook                        |
-| pnpm storybook:build              | build storybook                      |
 | pnpm build                        | build all packages                   |
 | pnpm build:affected               | build only affected packages         |
 | pnpm graph                        | graph for all packages               |
 | pnpm graph:affected               | graph only for affected packages     |
+| pnpm storybook                    | run storybook                        |
+| pnpm storybook:build              | build storybook                      |
 
 ## Roadmap
 
 | goal                                          | status |
 | --------------------------------------------- | ------ |
 | monorepo setup & shared code between packages | ✅     |
+| food recipes app with GraphQL and React       | ⏳     |
 | TBA..                                         | ⏳     |
 
 ## Contributing
