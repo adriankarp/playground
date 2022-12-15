@@ -39,15 +39,15 @@ pnpm install
 
 Scripts are executed from root level
 
-| name                              | description                          |
-| --------------------------------- | ------------------------------------ |
-| pnpm **package-name**:**command** | run **command** for **package-name** |
-| pnpm build                        | build all packages                   |
-| pnpm build:affected               | build only affected packages         |
-| pnpm graph                        | graph for all packages               |
-| pnpm graph:affected               | graph only for affected packages     |
-| pnpm storybook                    | run storybook                        |
-| pnpm storybook:build              | build storybook                      |
+| name                                | description                          |
+| ----------------------------------- | ------------------------------------ |
+| npx nx **command** **package-name** | run **command** for **package-name** |
+| pnpm build                          | build all packages                   |
+| pnpm build:affected                 | build only affected packages         |
+| pnpm graph                          | graph for all packages               |
+| pnpm graph:affected                 | graph only for affected packages     |
+| pnpm storybook                      | run storybook                        |
+| pnpm storybook:build                | build storybook                      |
 
 ## Roadmap
 

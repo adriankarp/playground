@@ -1,12 +1,29 @@
 {
-  "name": "recipes",
+  "name": "@playground/recipes-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "GraphQL api for finding food recipes",
+  "main": "./src/index.ts",
+  "type": "module",
+  "exports": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js",
+    "watch": "nodemon --watch './**/*.{ts,graphql}' --exec 'node --experimental-specifier-resolution=node --loader ts-node/esm' src/index.ts",
+    "dev": "tsc-watch --onSuccess \"npm run watch\""
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Adrian Karp",
+  "license": "GNU GPL 3.0",
+  "dependencies": {
+    "@apollo/server": "^4.3.0",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.15",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "tsc-watch": "^6.0.0",
+    "typescript": "^4.9.4"
+  }
 }
