@@ -1,9 +1,17 @@
 {
   "recommendations": [
-    "dbaeumer.vscode-eslint",
+    "apollographql.vscode-apollo",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-complete-tag",
+    "steoates.autoimport",
+    "formulahendry.auto-rename-tag",
+    "mgmcdermott.vscode-language-babel",
+    "naumovs.color-highlight",
+    "mikestead.dotenv",
+    "usernamehw.errorlens",
     "dsznajder.es7-react-js-snippets",
-    "esbenp.prettier-vscode",
-    "stylelint.vscode-stylelint"
+    "yzhang.markdown-all-in-one",
+    "afractal.node-essentials"
   ],
   "unwantedRecommendations": []
 }

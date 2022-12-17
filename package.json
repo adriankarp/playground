@@ -1,7 +1,7 @@
 {
   "name": "playground",
   "version": "1.0.0",
-  "description": "monorepo used to showcase projects",
+  "description": "template monorepo used to kickstart projects ",
   "scripts": {
     "clean": "git clean -fXd",
     "test": "jest --coverage",
@@ -15,18 +15,12 @@
     "graph:affected": "npx nx affected:graph",
     "build": "npx nx run-many --target=build --all",
     "build:affected": "npx nx affected:build",
-    "components-web:build": "npx nx build @playground/components-web",
     "prepare": "husky install"
   },
   "keywords": [],
   "author": "Adrian Karp",
   "license": "GNU GPL 3.0",
   "devDependencies": {
-    "@babel/cli": "^7.19.3",
-    "@babel/core": "^7.19.6",
-    "@babel/preset-env": "^7.19.4",
-    "@babel/preset-react": "^7.18.6",
-    "@babel/preset-typescript": "^7.18.6",
     "@storybook/addon-actions": "^6.5.13",
     "@storybook/addon-essentials": "^6.5.13",
     "@storybook/addon-interactions": "^6.5.13",
@@ -45,8 +39,6 @@
     "@types/node": "^18.11.7",
     "@typescript-eslint/eslint-plugin": "^5.41.0",
     "@typescript-eslint/parser": "^5.41.0",
-    "babel-jest": "^29.2.2",
-    "babel-loader": "^8.2.5",
     "eslint": "^8.26.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "^8.5.0",
@@ -61,9 +53,6 @@
     "jest-environment-jsdom": "^29.2.2",
     "nx": "^15.0.3",
     "prettier": "^2.7.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-test-renderer": "^18.2.0",
     "ts-jest": "^29.0.3",
     "typescript": "^4.8.4",
     "webpack": "^5.74.0"
