@@ -1,33 +1,13 @@
 # playground
 
-Monorepo used to implement and showcase different projects and technologies using JavaScript ecosystem.
+Template monorepo used to kickstart JavaScript based projects
 
 ## About
 
 - Monorepo built with `pnpm workspaces && NX`
 - `packages/**` based folder structure
-- Shared codebase between packages
-- Package name convention is `@playground/package-name`
+- Package naming convention `@playground/package-name`
 - JavaScript ecosystem based
-
-## Documentation
-
-- Each package has its own `README.md` file with documentation
-- _i.e._ `packages/components/web/README.md`
-
-## Packages
-
-### Apps
-
-| name                     | path                           | description                                          |
-| ------------------------ | ------------------------------ | ---------------------------------------------------- |
-| @playground/meal-recipes | `./packages/apis/meal-recipes` | GraphQL recipes [OMDb API](https://www.omdbapi.com/) |
-
-### Apis
-
-| name                     | path                           | description                                          |
-| ------------------------ | ------------------------------ | ---------------------------------------------------- |
-| @playground/meal-recipes | `./packages/apis/meal-recipes` | GraphQL recipes [OMDb API](https://www.omdbapi.com/) |
 
 ## Intitial setup
 
@@ -35,26 +15,31 @@ Monorepo used to implement and showcase different projects and technologies usin
 pnpm install
 ```
 
+## Technologies
+
+- PNPM
+- NX
+- TypeScript
+- Jest
+- Husky
+- ESLint
+- Prettier
+- Storybook
+
 ## Scripts
 
 Scripts are executed from root level
 
-| name                              | description                          |
-| --------------------------------- | ------------------------------------ |
-| pnpm **package-name**:**command** | run **command** for **package-name** |
-| pnpm storybook                    | run storybook                        |
-| pnpm storybook:build              | build storybook                      |
-| pnpm build                        | build all packages                   |
-| pnpm build:affected               | build only affected packages         |
-| pnpm graph                        | graph for all packages               |
-| pnpm graph:affected               | graph only for affected packages     |
-
-## Roadmap
-
-| goal                                          | status |
-| --------------------------------------------- | ------ |
-| monorepo setup & shared code between packages | ✅     |
-| TBA..                                         | ⏳     |
+| name                                | description                          |
+| ----------------------------------- | ------------------------------------ |
+| npx nx **command** **package-name** | run **command** for **package-name** |
+| pnpm build                          | build all packages                   |
+| pnpm build:affected                 | build only affected packages         |
+| pnpm graph                          | graph for all packages               |
+| pnpm graph:affected                 | graph only for affected packages     |
+| pnpm storybook                      | run storybook                        |
+| pnpm storybook:build                | build storybook                      |
+| pnpm storybook:clean                | clean storybook                      |
 
 ## Contributing
 
