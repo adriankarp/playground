@@ -1,39 +1,30 @@
 # playground
 
-Monorepo used to implement and showcase different projects and technologies using JavaScript ecosystem.
+Template monorepo used to kickstart JavaScript based projects
 
 ## About
 
 - Monorepo built with `pnpm workspaces && NX`
 - `packages/**` based folder structure
-- Shared codebase between packages
-- Package name convention is `@playground/package-name`
+- Package naming convention `@playground/package-name`
 - JavaScript ecosystem based
-
-## Documentation
-
-- Each package has its own `README.md` file with documentation
-- _i.e._ `packages/components/web/README.md`
-
-## Packages
-
-### Apps
-
-| name                      | path                      | description                                                                                   |
-| ------------------------- | ------------------------- | --------------------------------------------------------------------------------------------- |
-| `@playground/recipes-app` | `./packages/apis/recipes` | React client which consumes `@playground/recipes-api` [EDAMAM](https://developer.edamam.com/) |
-
-### Apis
-
-| name                      | path                      | description                                                                  |
-| ------------------------- | ------------------------- | ---------------------------------------------------------------------------- |
-| `@playground/recipes-api` | `./packages/apis/recipes` | GraphQL api for finding food recipes [EDAMAM](https://developer.edamam.com/) |
 
 ## Intitial setup
 
 ```
 pnpm install
 ```
+
+## Technologies
+
+- PNPM
+- NX
+- TypeScript
+- Jest
+- Husky
+- ESLint
+- Prettier
+- Storybook
 
 ## Scripts
 
@@ -48,14 +39,7 @@ Scripts are executed from root level
 | pnpm graph:affected                 | graph only for affected packages     |
 | pnpm storybook                      | run storybook                        |
 | pnpm storybook:build                | build storybook                      |
-
-## Roadmap
-
-| goal                                          | status |
-| --------------------------------------------- | ------ |
-| monorepo setup & shared code between packages | ✅     |
-| food recipes app with GraphQL and React       | ⏳     |
-| TBA..                                         | ⏳     |
+| pnpm storybook:clean                | clean storybook                      |
 
 ## Contributing
 
