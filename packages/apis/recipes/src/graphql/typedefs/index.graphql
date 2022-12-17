@@ -1,0 +1,4 @@
+type Query {
+  recipes(ingredients: String!): [Recipe]
+  recipe(id: ID!): Recipe
+}
